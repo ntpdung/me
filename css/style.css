@@ -92,7 +92,8 @@ ul {
 .summary .item {
 	border: 1px solid #888;
     border-radius: 4px;
-    padding: 20px 50px;
+    padding: 20px;
+	width: 500px;
     display: inline-block;
 }
 
