@@ -2,6 +2,6 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		controlArrows: false,
 		verticalCentered: false,
-		sectionsColor : ['#fff', '#efe100', '#000', '#ac0e16'],
+		sectionsColor : ['#000', '#fff', '#000', '#fff', '#000', '#fff'],
 	});
 });

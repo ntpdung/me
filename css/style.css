@@ -25,6 +25,12 @@ body {
 	
 }
 
+.wrap {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
 /*font family Roboto Mono*/
 #about {
 	background-image: url("../images/about-bg.jpg");
@@ -54,8 +60,10 @@ body {
 	background-color: red;
 }
 
-.wrap {
-	width: 80%;
-	margin: 0 auto;
-	padding-top: 40px;
+#softSkill {
+	color: #444;
+}
+
+#other {
+	color: #444;
 }
