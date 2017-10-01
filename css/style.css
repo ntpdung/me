@@ -85,6 +85,10 @@ ul {
 	
 }
 
+.summary {
+	margin-bottom: 15px;
+}
+
 .summary .item {
 	border: 1px solid #888;
     border-radius: 4px;
