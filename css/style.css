@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'RobotoMonoItalic';
+  src: url('fonts/RobotoMono-Italic.ttf');
+  src: url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'RobotoMonoBold';
+  src: url('fonts/RobotoMono-Bold.ttf');
+  src: url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,21 +21,33 @@
 
 body {
 	color: #fff;
-	/*font-family: "";*/
+	font-family: "RobotoMonoItalic";
+	
 }
 
 /*font family Roboto Mono*/
+#about {
+	background-image: url("../images/about-bg.jpg");
+	background-size: cover;
+    background-blend-mode: luminosity;
+}
 
 #about .name {
-	color: #333;
+	/*color: #333;*/
+    font-size: 52px;
+	margin-bottom: 10px;
+	font-family: "RobotoMonoBold";
 }
 
 #about .job-title {
-	color: #888;
+	/*color: #888;*/
+	color: #ccc;
+    font-size: 22px;
+	font-family: "RobotoMonoItalic";
 }
 
 #education {
-
+	color: #444;
 }
 
 #experience {
