@@ -1,3 +1,2 @@
 # me
-about me
-go to my profile https://ntpdung.github.io/me/
+# go to my profile https://ntpdung.github.io/me/
