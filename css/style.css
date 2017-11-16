@@ -54,7 +54,7 @@ ul {
 
 /*font family Roboto Mono*/
 #fullpage {
-	background-image: url("../images/macbook-laptop-computer.jpg");
+	background-image: url("../images/bg.png");
 	background-size: cover;
 	background-blend-mode: luminosity;
 	background-attachment: fixed;
