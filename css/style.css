@@ -18,8 +18,8 @@
   font-family: 'RobotoMonoRegular';
   src: url('fonts/RobotoMono-Regular.ttf');
   src: url('../fonts/RobotoMono-Regular.ttf') format('truetype');
-  font-weight: bold;
-  font-style: bold;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* common style */
@@ -60,8 +60,8 @@ ul {
 	color: #999999;
 }
 
-.txt-13 {
-	font-size: 13px;
+.txt-12 {
+	font-size: 12px;
 }
 
 .txt-14 {
@@ -106,30 +106,42 @@ ul {
 	top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+	right: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
-.side-bar-fixed ul.nav li {
+.side-bar-fixed ul.side-bar li {
 	margin-bottom: 22px;
+}
+
+.side-bar-fixed ul.side-bar li a, .side-bar-fixed ul.side-bar li a:hover {
+	color: #999;
+	text-decoration: none;
 }
 
 .side-bar-fixed {
 	position: fixed;
-    top: 35%;
+	top: 35%;
+	padding-left: 0;
+    left: -14px !important;
+}
+
+.side-bar {
+	padding-left: 10px;
+	border-left: 1px solid #999;
+	left: 0;
 }
 
 .main-title {
 	margin-bottom: 26px;
+	font-weight: bold;
 }
 
-.about .profile {
-	/* width: 600px;
-	height: 96px;
-	font-family: RobotoMono;
-	font-size: 14px;
-	line-height: 1.71;
-	text-align: left; */
-	
+.about .profile .name {
+	font-weight: bold;
 }
 
 .about .profile .job-title {
@@ -159,12 +171,12 @@ ul {
     right: -100px;
 }
 
-.main-skill .item {
-	margin-bottom: 24px;
+.main-skill-content .item {
+	margin-bottom: 20px;
 }
 
-.soft-skill {
-	margin-top: 60px;
+.soft-skill .soft-skill-content h1 {
+	margin-top: 0;
 }
 
 .exp .item {
@@ -199,4 +211,10 @@ ul {
     left: 0;
 	margin-right: -50%;
 	transform: translate(0, -50%)
+}
+
+@media (min-width: 768px){
+	.content {
+		padding-left: 0;
+	}
 }
