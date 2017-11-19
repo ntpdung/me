@@ -178,3 +178,12 @@ ul {
 .exp ul {
 	margin-left: 20px;
 }
+
+.contact .contact-title {
+	display: inline-block;
+}
+
+.contact .contact-detail {
+	display: inline-block;
+    margin-left: 20px;
+}
