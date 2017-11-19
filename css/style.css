@@ -138,6 +138,7 @@ ul {
 .main-title {
 	margin-bottom: 26px;
 	font-weight: bold;
+	margin-top: 0;
 }
 
 .about .profile .name {
@@ -159,8 +160,8 @@ ul {
 	margin-top: 30px;
 }
 .about .profile-img img {
-    width: 420px;
-    height: 420px;
+    width: 320px;
+    height: 320px;
     display: inline-block;
     background-color: #000;
 }
@@ -173,10 +174,6 @@ ul {
 
 .main-skill-content .item {
 	margin-bottom: 20px;
-}
-
-.soft-skill .soft-skill-content h1 {
-	margin-top: 0;
 }
 
 .exp .item {
