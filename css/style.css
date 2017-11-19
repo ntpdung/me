@@ -14,6 +14,8 @@
   font-style: bold;
 }
 
+/* common style */
+
 * {
 	padding: 0;
 	margin: 0;
@@ -42,18 +44,50 @@ ul {
 	color: #fff;
 }
 
-.wrap {
-	width: 80%;
-	margin: 0 auto;
-	padding-top: 40px;
-}
-
 .title {
 	margin-bottom: 30px;
 }
 
+.txt-grey {
+	color: #999999;
+}
+
+.txt-13 {
+	font-size: 13px;
+}
+
+.txt-14 {
+	font-size: 14px;
+}
+
+.txt-16 {
+	font-size: 16px;
+}
+
+.txt-40 {
+	font-size: 40px;
+}
+
+.txt-bright-grey {
+	color: #e0e0e0;
+}
+
+.txt-uppercase {
+	text-transform: uppercase;
+}
+
+.disc-list {
+	list-style-type: disc;
+}
+
+.vertical-bor {
+	opacity: 0.2;
+	border: solid 1px #333333;
+}
+
+
 /*font family Roboto Mono*/
-#fullpage {
+.bg {
 	background-image: url("../images/bg.png");
 	background-size: cover;
 	background-blend-mode: luminosity;
@@ -61,52 +95,57 @@ ul {
 	background-color: rgba(1, 1, 1, 1);
 }
 
-#about .name {
-	/*color: #333;*/
-    font-size: 52px;
-	margin-bottom: 10px;
-	font-family: "RobotoMonoBold";
+.bor-bg {
+	position: fixed;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-#about .job-title {
-	/*color: #888;*/
-	color: #ccc;
-    font-size: 22px;
-	font-family: "RobotoMonoItalic";
+.section {
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-#about .overview {
-	text-align: right;
+.side-bar-fixed {
+	position: fixed;
+    top: 35%;
 }
 
-#education {
-	/*color: #444;*/
-}
-
-#education .progress {
+.about .profile {
+	/* width: 600px;
+	height: 96px;
+	font-family: RobotoMono;
+	font-size: 14px;
+	line-height: 1.71;
+	text-align: left; */
 	
 }
 
-.summary {
-	margin-bottom: 15px;
+.about .profile .job-title {
+	margin: 10px 0 30px 0;
 }
 
-.summary .item {
-	border: 1px solid #888;
-    border-radius: 4px;
-    padding: 20px;
-	width: 500px;
+.about .profile ul li {
+	margin-left: 18px;
+}
+
+.about .profile-img {
+	margin-bottom: 40px;
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+}
+.about .profile-img img {
+    width: 420px;
+    height: 420px;
     display: inline-block;
+    background-color: #000;
 }
 
-#experience {
-	/* background-color: red; */
-}
-
-#softSkill {
-	/*color: #444;*/
-}
-
-#other {
-	/*color: #444;*/
+.about .profile-img img:last-child {
+	position: absolute;
+    top: -30px;
+    right: -100px;
 }

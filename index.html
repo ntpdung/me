@@ -4,99 +4,114 @@
 	<title>
 		Dung Nguyen
 	</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="js/profile.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="fullpage">
+	<div class="container-fluid bg">
+		<div class="row bor-bg">
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 offset-1 side-bar-fix">
+				<ul class="txt-13 txt-uppercase">
+					<li>About Me</li>
+					<li>Skills</li>
+					<li>Experiences</li>
+					<li>Contactcs</li>
+				</ul>
+			</div>
+			<div class="col-sm-8 offset-4">
+					<div id="fullpage">
+						<div id="about" class="section about active">
+							<div class="profile-img">
+								<img src="images/" alt="">
+								<img src="" alt="">
+							</div>
+							<div class="profile">
+								<h1 class="txt-bright-grey txt-40">Phuong Dung Ng.</h1>
+								<p class="job-title txt-bright-grey txt-16 txt-uppercase">Front-end Web Developer</p>
+								<ul class="disc-list txt-grey txt-14">
+									Find a position that i can make model website, create beautiful animation for 
+									the website by HTML5, CSS3 and javascript. 
+									<li>06/201-10/2013: Ho Chi Minh City University of Natural Sciences. </li>
+									<li>College diploma: Information Technology. </li>
+									<li>Major: Software.</li>
+								</ul>
+							</div>
+							<!-- <div class="container">
+								
+							</div> -->
+						</div>
+						<div id="skill" class="section">
+							<div class="container">
+								
+							</div>
+						</div>
+					</div>
 				
-		<div class="section active" id="about">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Dung.Ng</h1>
-					<p class="job-title">Front-end developer</p>
-					<div class="overview">
-						<p>date of birth: 25/03/1992</p>
-						<p>
-							Studied in Ho Chi Minh City University of Natural Sciences
-						</p>
-					</div>
-					<div class="quote">
+			</div>
+			<div class="clearfix"></div>
 
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--<div class="section" id="education">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Education</h1>
-					<ul class="progress">
-						<li>
-							2010 : Ho Chi Minh City University of Natural Sciences
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>-->
-		<div class="section" id="experience">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="title">Experience</h1>
-					<div class="summary">
-						<div class="item">
-							<p>08/2014 - 4/2016: ARIS VIET NAM CO.,LTD</p>
-							<ul>
-								<li>- Layout website by html, css. </li>
-								<li>- Create simple animation by  javascript.</li>
-								<li>- Use Photoshop to edit and crop image.</li>
-								<li>- Use GIT to manage and share source code.</li>
-								<li>- Make responsive for web.</li>
-							</ul>
-						</div>
-					</div>
-					<div class="summary">
-						<div class="item">
-							<p>05/2016: TICKETBOX VIET NAM CO.,LTD</p>
-							<ul>
-								<li>- Make landingpage. </li>
-								<li>- Create Checkin app for checkin ticket by angular 2.</li>
-								<li>- Mantaince system by angular.</li>
-								<li>- Create new event detail.</li>
-								<li>- MeoBietGhiGi.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="softSkill">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="title">Soft Skill</h1>
-					<p class="job-title">Trém's Dó's</p>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="hardSkill">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Hard Skill</h1>
-					<p class="job-title">Html, Css, Javascript</p>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="other">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Other</h1>
-					<p class="job-title">Habit</p>
-				</div>
-			</div>
 		</div>
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/profile.js"></script>
+<!-- <div class="section" id="experience">
+	<div class="wrap">
+		<div class="slide"> 
+			<h1 class="title">Experience</h1>
+			<div class="summary">
+				<div class="item">
+					<p>08/2014 - 4/2016: ARIS VIET NAM CO.,LTD</p>
+					<ul>
+						<li>- Layout website by html, css. </li>
+						<li>- Create simple animation by  javascript.</li>
+						<li>- Use Photoshop to edit and crop image.</li>
+						<li>- Use GIT to manage and share source code.</li>
+						<li>- Make responsive for web.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="summary">
+				<div class="item">
+					<p>05/2016: TICKETBOX VIET NAM CO.,LTD</p>
+					<ul>
+						<li>- Make landingpage. </li>
+						<li>- Create Checkin app for checkin ticket by angular 2.</li>
+						<li>- Mantaince system by angular.</li>
+						<li>- Create new event detail.</li>
+						<li>- MeoBietGhiGi.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<!-- <h1 class="name">Dung.Ng</h1>
+<p class="job-title">Front-end developer</p>
+<div class="overview">
+	<p>date of birth: 25/03/1992</p>
+	<p>
+		Studied in Ho Chi Minh City University of Natural Sciences
+	</p>
+</div>
+<div class="quote">
+
+</div> -->
