@@ -34,7 +34,7 @@ ul {
 	list-style-type: none;
 }
 
-.section:nth-child(even) {
+/* .section:nth-child(even) {
 	text-align: right;
 	color: #444;
 }
@@ -42,7 +42,7 @@ ul {
 .section:nth-child(odd) {
 	text-align: left;
 	color: #fff;
-}
+} */
 
 .title {
 	margin-bottom: 30px;
@@ -113,6 +113,10 @@ ul {
     top: 35%;
 }
 
+.main-title {
+	margin-bottom: 26px;
+}
+
 .about .profile {
 	/* width: 600px;
 	height: 96px;
@@ -148,4 +152,29 @@ ul {
 	position: absolute;
     top: -30px;
     right: -100px;
+}
+
+.main-skill .item {
+	margin-bottom: 24px;
+}
+
+.soft-skill {
+	margin-top: 60px;
+}
+
+.exp .item {
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+
+.exp .main-title {
+	margin-top: 70px;
+}
+
+.exp .item .time {
+	margin-bottom: 10px;
+}
+
+.exp ul {
+	margin-left: 20px;
 }
