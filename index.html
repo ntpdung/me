@@ -1,55 +1,239 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Dung Nguyen
-	</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Dung Nguyen</title>
+	<link href="images/my-favorite-animal.png" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="js/profile.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="fullpage">
-				
-		<div class="section active" id="about">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Dung.Ng</h1>
-					<p class="job-title">Front-end developer</p>
-				</div>
-			</div>
+	<div class="container-fluid bg">
+		<div class="row bor-bg">
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor"></div>
 		</div>
-		<div class="section" id="education">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Education</h1>
-					<!-- <p class="job-title">Front-end developer</p> -->
-					<ul>
-						<li>
-							2010 : Science University
-						</li>
-					</ul>
+		<div class="row">
+			<div class="col-sm-3 col-sm-offset-1 side-bar-fixed centering hidden-sm">
+				<ul class="side-bar txt-grey txt-12 txt-uppercase">
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#skill">Skills</a></li>
+					<li><a href="#exp">Experiences</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="content col-sm-8 col-sm-offset-2 col-md-offset-4">
+				<div id="fullpage">
+					<div id="about" class="section about active">
+						<div class="centering">
+							<div class="profile-img">
+								<img src="images/profile.jpg" alt="">
+								<img src="" alt="">
+							</div>
+							<div class="profile">
+								<h1 class="name txt-bright-grey txt-40">Phuong Dung Ng.</h1>
+								<p class="job-title txt-bright-grey txt-16 txt-uppercase">Front-end Web Developer</p>
+								<p class="txt-grey txt-14 objective">
+									Find a position that i can make model website, create beautiful animation for the website by HTML5, CSS3 and javascript.<br/><br/>
+								</p>
+								<ul class="disc-list txt-grey txt-14">
+									<li>06/201-10/2013: Ho Chi Minh City University of Natural Sciences. </li>
+									<li>College diploma: Information Technology. </li>
+									<li>Major: Software.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="main-skill" class="section main-skill">
+						<div class="centering">
+							<div class="main-skill-content">
+								<h1 class="main-title txt-bright-grey txt-40">Main skills</h1>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Languages
+									</p>
+									<p class="txt-grey txt-14">
+										html, css, javascript, typescript, scss
+									</p>
+								</div>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Css-extension tool
+									</p>
+									<p class="txt-grey txt-14">
+										sscss
+									</p>
+								</div>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Js-frameworks
+									</p>
+									<p class="txt-grey txt-14">
+										gulp, lodash, angularjs, angularjs 2, jquery, ajax.s
+									</p>
+								</div>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Dev tool
+									</p>
+									<p class="txt-grey txt-14">
+										git, source tree, sublime, visual studio code, visual code.
+									</p>
+								</div>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Task mange tool
+									</p>
+									<p class="txt-grey txt-14">
+										trello, jira, redmine.
+									</p>
+								</div>
+								<div class="item">
+									<p class="txt-bright-grey txt-16">
+										Online build web
+									</p>
+									<p class="txt-grey txt-14">
+										heroku, git io.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="soft-skill" class="section soft-skill">
+						<div class="centering">
+							<div class="soft-skill-content">
+								<h1 class="main-title stxt-bright-grey txt-40">Soft skills</h1>
+								<div class="item">
+									<p class="txt-grey txt-14">
+										Communication, Presentation, Teamwork
+										Foreign Language: English
+									</p>
+									<p class="txt-grey txt-14">
+										Foreign Language: English
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="exp" class="section exp">
+						<div class="centering row col-sm-12">
+							<div class="item row rel">
+								<div class="col-sm-8">
+									<h1 class="main-title txt-bright-grey txt-40">
+										TICKETBOX Co. Ltd.</h1>
+									<p class="time txt-bright-grey txt-16 txt-uppercase">May 2016 - Present</p>
+									<ul class="disc-list txt-grey txt-14">
+										<li>Make landingpage by html, scss, jquery, boostrap </li>
+										<li>Fix bug, maintance system base on Angularjs.</li>
+										<li>Create new features for admin and web by angularJs.</li>
+										<li>Use GIT to manage and share source code.</li>
+										<li>Using angularJs 2 to make checkin app, admin dashboard feature....</li>
+									</ul>
+								</div>
+								<div class="company-img col-sm-4 abs">
+									<img class="w-100" src="images/company-1.jpg" alt="">
+								</div>
+							</div>
+							<div class="item row rel">
+								<div class="col-sm-8">
+									<h1 class="main-title txt-bright-grey txt-40">
+										ARIS VIET NAM Co. Ltd.</h1>
+									<p class="time txt-bright-grey txt-16 txt-uppercase">Aug 2014 - May 2016</p>
+									<ul class="disc-list txt-grey txt-14">
+										<li>Layout website by html, css.</li>
+										<li>Create simple animation by javascript.</li>
+										<li>Use Photoshop to edit and crop image.</li>
+										<li>Use GIT to manage and share source code.</li>
+										<li>Make responsive for web.</li>
+									</ul>
+								</div>
+								<div class="company-img col-sm-4 abs">
+									<img class="w-100" src="images/company-1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="contact" class="section contact">
+						<div class="centering">
+							<div class="item">
+								<h1 class="main-title txt-bright-grey txt-40">Keep in touch</h1>
+								<div class="txt-grey txt-14">
+								</div>
+								<div class="txt-grey txt-14">
+									<div class="contact-title">
+										<p>E.</p>
+										<p>M.</p>
+										<p>A.</p>
+									</div>
+									<div class="contact-detail">
+										<p>mrs.nguyen2503@gmail.com</p>
+										<p>(+84) 938 225 600</p>
+										<p>861 Tran Xuan Soan St., Tan Hung Ward, Distric 7, Ho Chi Minh City</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="section" id="experience">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Experience</h1>
-					<p class="job-title">Front-end developer</p>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="other">
-			<div class="wrap">
-				<div class="slide"> 
-					<h1 class="name">Other</h1>
-					<p class="job-title">Habit</p>
-				</div>
-			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/profile.js"></script>
+<!-- <div class="section" id="experience">
+	<div class="wrap">
+		<div class="slide"> 
+			<h1 class="title">Experience</h1>
+			<div class="summary">
+				<div class="item">
+					<p>08/2014 - 4/2016: ARIS VIET NAM CO.,LTD</p>
+					<ul>
+						<li>- Layout website by html, css. </li>
+						<li>- Create simple animation by  javascript.</li>
+						<li>- Use Photoshop to edit and crop image.</li>
+						<li>- Use GIT to manage and share source code.</li>
+						<li>- Make responsive for web.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="summary">
+				<div class="item">
+					<p>05/2016: TICKETBOX VIET NAM CO.,LTD</p>
+					<ul>
+						<li>- Make landingpage. </li>
+						<li>- Create Checkin app for checkin ticket by angular 2.</li>
+						<li>- Mantaince system by angular.</li>
+						<li>- Create new event detail.</li>
+						<li>- MeoBietGhiGi.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<!-- <h1 class="name">Dung.Ng</h1>
+<p class="job-title">Front-end developer</p>
+<div class="overview">
+	<p>date of birth: 25/03/1992</p>
+	<p>
+		Studied in Ho Chi Minh City University of Natural Sciences
+	</p>
+</div>
+<div class="quote">
+
+</div> -->
