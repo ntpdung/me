@@ -3,4 +3,7 @@ $(document).ready(function() {
 		controlArrows: false,
 		verticalCentered: false
 	});
+	function init (params) {
+		
+	}
 });

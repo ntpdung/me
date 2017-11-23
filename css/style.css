@@ -51,6 +51,17 @@ ul {
 	text-align: left;
 	color: #fff;
 } */
+.w-100 {
+	width: 100%;
+}
+
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
 
 .title {
 	margin-bottom: 30px;
@@ -160,16 +171,24 @@ ul {
 	margin-top: 30px;
 }
 .about .profile-img img {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+}
+.about .profile-img img:last-child {
+    width: 300px;
+    height: 322px;
     display: inline-block;
-    background-color: #000;
+	background-color: #000;
+	z-index: -1;
 }
 
 .about .profile-img img:last-child {
 	position: absolute;
     top: -30px;
     right: -100px;
+}
+
+.about .objective {
+	width: 70%;
 }
 
 .main-skill-content .item {
@@ -191,6 +210,11 @@ ul {
 
 .exp ul {
 	margin-left: 20px;
+}
+
+.exp .company-img {
+	right: 0;
+	bottom: 10px;
 }
 
 .contact .contact-title {
