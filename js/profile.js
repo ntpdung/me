@@ -6,9 +6,10 @@ $(document).ready(function() {
 	function init() {
 		$('#page-wrap').hide();
 		setTimeout(function () {
+			// debugger;
 			$('#page-load').hide();
 			$('#page-wrap').show();
-		}, 3000);
+		}, 6000);
 	}
 	init();
 });
