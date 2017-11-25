@@ -3,7 +3,12 @@ $(document).ready(function() {
 		controlArrows: false,
 		verticalCentered: false
 	});
-	function init (params) {
-		
+	function init() {
+		$('#page-wrap').hide();
+		setTimeout(function () {
+			$('#page-load').hide();
+			$('#page-wrap').show();
+		}, 3000);
 	}
+	init();
 });

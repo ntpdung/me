@@ -104,6 +104,14 @@ ul {
 	border: solid 1px #333333;
 }
 
+.centering {
+	position: absolute;
+    top: 50%;
+    left: 0;
+	margin-right: -50%;
+	transform: translate(0, -50%)
+}
+
 .bg {
 	background-image: url("../images/bg.png");
 	background-size: cover;
@@ -122,6 +130,22 @@ ul {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+}
+
+.page-load {
+    -webkit-animation: mymove 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 50%;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 50%;}
 }
 
 .side-bar-fixed ul.side-bar li {
@@ -224,14 +248,6 @@ ul {
 .contact .contact-detail {
 	display: inline-block;
     margin-left: 20px;
-}
-
-.centering {
-	position: absolute;
-    top: 50%;
-    left: 0;
-	margin-right: -50%;
-	transform: translate(0, -50%)
 }
 
 @media (min-width: 768px){
