@@ -52,7 +52,7 @@ ul {
 	color: #fff;
 } */
 .w-100 {
-	width: 100%;
+	width: 10from;
 }
 
 .rel {
@@ -133,15 +133,15 @@ ul {
 }
 
 .page-load {
-	left: 34.5%;
+	/* left: 34.5%; */
     font-size: 60px;
-    -webkit-animation: mymove 2s; /* Safari 4.0 - 8.0 */
-	animation: mymove 2s;
-	animation-iteration-count: 1;
+    /* -webkit-animation: mymove 2s; */
+	/* animation: mymove 2s; */
+	/* animation-iteration-count: 1; */
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
+/* @-webkit-keyframes mymove {
     from {opacity: 0; font-size: 0px;}
     to {opacity: 1; font-size: 60px;}
 }
@@ -149,6 +149,69 @@ ul {
 @keyframes mymove {
     from {opacity: 0; font-size: 0px;}
     to {opacity: 1; font-size: 60px;}
+} */
+
+.page-load b {
+	float: right;
+	overflow: hidden;
+    position: relative;
+	height: 85px;
+	top: 0;
+}
+
+.innerIam {
+  display: inline-block;
+  color: #e74c3c;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 22px;
+
+
+/*animation*/
+-webkit-animation:move 2s;
+   -moz-animation:move 2s;
+    -ms-animation:move 2s;
+     -o-animation:move 2s;
+        animation:move 2s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+   -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+     -o-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+@keyframes move{
+	0%  { top: 0px; }
+	50% { top: -85px; }
+	100% { top: -170px; }
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+	50% { top: -85px; }
+	100% { top: -170px; }
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+	50% { top: -85px; }
+	100% { top: -170px; }
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+	50% { top: -85px; }
+	100% { top: -170px; }
+}
+@keyframes move {
+    0%  { top: 0px; }
+	50% { top: -85px; }
+	100% { top: -170px; }
 }
 
 .side-bar-fixed ul.side-bar li {
@@ -162,7 +225,7 @@ ul {
 
 .side-bar-fixed {
 	position: fixed;
-	top: 35%;
+	/* top: 35%; */
 	padding-left: 0;
     left: -14px !important;
 }
@@ -215,7 +278,7 @@ ul {
 }
 
 .about .objective {
-	width: 70%;
+	width: 7from;
 }
 
 .main-skill-content .item {
