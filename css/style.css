@@ -52,7 +52,7 @@ ul {
 	color: #fff;
 } */
 .w-100 {
-	width: 10from;
+	width: 100%;
 }
 
 .rel {
@@ -278,7 +278,7 @@ ul {
 }
 
 .about .objective {
-	width: 7from;
+	width: 70%;
 }
 
 .main-skill-content .item {
