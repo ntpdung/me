@@ -10,39 +10,44 @@
 <body>
 	<div class="container-fluid">
 		<div class="row bor-bg bg">
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
-			<div class="col-sm-1 vertical-bor"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
+			<div class="col-sm-1 vertical-bor hidden-xs"></div>
 			<div id="page-load" class="page-load row centering">
-				nothing
+				nothing<br/>
 				<b>
 					<div class="innerIam">
 						is
-						<br/> impossible_
-						<br/> is
+						<br/>imposible_
+						<br/>is
+						<!-- eat_ -->
+						<!-- <br/> <span style="text-decoration: line-through;font-style: italic;">sleep</span> -->
+						<!-- <br/> < code >
+						<br/> l❤ve -->
 					</div>
 				</b>
 			</div>
 			<div id="scroll-down" class="scroll-down">
-				<a href="#section04"><span></span></a>
+				<a href="#about"><span></span></a>
 			</div>
 		</div>
 		<div id="page-wrap" class="row">
 			<div class="col-sm-3 col-sm-offset-1 side-bar-fixed centering hidden-sm">
-				<ul class="side-bar txt-grey txt-12 txt-uppercase">
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#skill">Skills</a></li>
-					<li><a href="#exp">Experiences</a></li>
-					<li><a href="#contact">Contact</a></li>
+				<ul id="side-bar" class="side-bar txt-grey txt-12 txt-uppercase">
+					<li data-menuanchor="firstPage"><a href="#firstPage">About Me</a></li>
+					<li data-menuanchor="secondPage"><a href="#secondPage">Main Skills</a></li>
+					<li data-menuanchor="3rdPage"><a href="#3rdPage">Soft Skills</a></li>
+					<li data-menuanchor="4thpage"><a href="#4thpage">Experiences</a></li>
+					<li data-menuanchor="lastPage"><a href="#lastPage">Contact</a></li>
 				</ul>
 			</div>
 			<div class="content col-sm-8 col-sm-offset-2 col-md-offset-4">
@@ -141,9 +146,9 @@
 					<div id="exp" class="section exp">
 						<div class="centering row col-sm-12">
 							<div class="item row rel">
-								<div class="col-sm-8">
+								<div class="col-sm-12">
 									<h1 class="main-title txt-bright-grey txt-40">
-										TICKETBOX Co. Ltd.</h1>
+										TicketBox Co. Ltd.</h1>
 									<p class="time txt-bright-grey txt-16 txt-uppercase">May 2016 - Present</p>
 									<ul class="disc-list txt-grey txt-14">
 										<li>Make landingpage by html, scss, jquery, boostrap </li>
@@ -153,14 +158,14 @@
 										<li>Using angularJs 2 to make checkin app, admin dashboard feature....</li>
 									</ul>
 								</div>
-								<div class="company-img col-sm-4 abs">
+								<!-- <div class="company-img col-sm-4 abs">
 									<img class="w-100" src="images/company-1.jpg" alt="">
-								</div>
+								</div> -->
 							</div>
 							<div class="item row rel">
-								<div class="col-sm-8">
+								<div class="col-sm-12">
 									<h1 class="main-title txt-bright-grey txt-40">
-										ARIS VIET NAM Co. Ltd.</h1>
+										Aris Viet Nam Co. Ltd.</h1>
 									<p class="time txt-bright-grey txt-16 txt-uppercase">Aug 2014 - May 2016</p>
 									<ul class="disc-list txt-grey txt-14">
 										<li>Layout website by html, css.</li>
@@ -170,9 +175,9 @@
 										<li>Make responsive for web.</li>
 									</ul>
 								</div>
-								<div class="company-img col-sm-4 abs">
+								<!-- <div class="company-img col-sm-4 abs">
 									<img class="w-100" src="images/company-1.jpg" alt="">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -207,46 +212,3 @@
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="js/profile.js"></script>
-<!-- <div class="section" id="experience">
-	<div class="wrap">
-		<div class="slide"> 
-			<h1 class="title">Experience</h1>
-			<div class="summary">
-				<div class="item">
-					<p>08/2014 - 4/2016: ARIS VIET NAM CO.,LTD</p>
-					<ul>
-						<li>- Layout website by html, css. </li>
-						<li>- Create simple animation by  javascript.</li>
-						<li>- Use Photoshop to edit and crop image.</li>
-						<li>- Use GIT to manage and share source code.</li>
-						<li>- Make responsive for web.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="summary">
-				<div class="item">
-					<p>05/2016: TICKETBOX VIET NAM CO.,LTD</p>
-					<ul>
-						<li>- Make landingpage. </li>
-						<li>- Create Checkin app for checkin ticket by angular 2.</li>
-						<li>- Mantaince system by angular.</li>
-						<li>- Create new event detail.</li>
-						<li>- MeoBietGhiGi.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> -->
-
-<!-- <h1 class="name">Dung.Ng</h1>
-<p class="job-title">Front-end developer</p>
-<div class="overview">
-	<p>date of birth: 25/03/1992</p>
-	<p>
-		Studied in Ho Chi Minh City University of Natural Sciences
-	</p>
-</div>
-<div class="quote">
-
-</div> -->

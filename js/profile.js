@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		controlArrows: false,
-		verticalCentered: false
+		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		navigationPosition: 'left',
+		menu: '#side-bar',
 	});
 	function init() {
 		$('#page-wrap').hide();
@@ -15,8 +16,6 @@ $(document).ready(function() {
 			$('#page-load').hide();
 			$('#page-wrap').show(500);
 		});
-
-		$(window).scrol();
 	}
 	init();
 });
